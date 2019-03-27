@@ -1,0 +1,23 @@
+{
+  "name": "DynamoDBExtract",
+  "description": "Dump Dynamo to json format",
+  "version": "0.0.1",
+  "license": {
+    "type": "MIT",
+    "url": "https://www.opensource.org/licenses/mit-license.php"
+  },
+  "private": false,
+  "homepage": "https://github.com/sfauvart/DynamoDBExtract",
+  "repository": "git://github.com/sfauvart/DynamoDBExtract",
+  "engines": {
+    "node": ">=6.0.x"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.429.0",
+    "cli-progress": "^2.1.1",
+    "commander": "^2.19.0"
+  },
+  "scripts": {
+    "extract": "node extract.js"
+  }
+}
